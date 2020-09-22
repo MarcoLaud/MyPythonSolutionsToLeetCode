@@ -32,4 +32,4 @@ class Solution:
         return t
 
 # Beats 78.71% and 47.46% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+# (2020/09/22). Now PEP8 compliant.
