@@ -31,5 +31,5 @@ class Solution:
             t += sum(dists[ii])
         return t
 
-# Beats % and % of Python 3 submissions in runtime and memory resp.
+# Beats 78.71% and 47.46% of Python 3 submissions in runtime and memory resp.
 # (2020/09/22)
