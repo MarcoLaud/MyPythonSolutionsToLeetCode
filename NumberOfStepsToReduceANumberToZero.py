@@ -15,5 +15,7 @@ class Solution:
             ii += 1
         return ii
 
-# Beats 79.22% and 46.52% of Python 3 submission in runtime and memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = 14
+    print(Solution.numberOfSteps(Solution, test_input))

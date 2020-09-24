@@ -15,5 +15,8 @@ class Solution:
         nums = [start + 2 * ii for ii in range(n)]
         return reduce(lambda x, y: x ^ y, nums)
 
-# Beats 79.58% and 32.59% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input1 = 4
+    test_input2 = 3
+    print(Solution.xorOperation(Solution, test_input1, test_input2))

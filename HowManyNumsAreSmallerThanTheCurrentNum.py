@@ -15,5 +15,7 @@ class Solution:
                 dic[num] = ii
         return [dic[num] for num in nums]
 
-# Beats 71.91% and 33.59% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = [8, 1, 2, 2, 3]
+    print(Solution.smallerNumbersThanCurrent(Solution, test_input))

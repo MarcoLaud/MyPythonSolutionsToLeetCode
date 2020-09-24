@@ -11,5 +11,7 @@ class Solution:
             su += int(elem)
         return pr - su
 
-# Beats 18.20% and 38.30% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = 4421
+    print(Solution.subtractProductAndSum(Solution, test_input))

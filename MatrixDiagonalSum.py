@@ -16,5 +16,9 @@ class Solution:
         else:
             return res
 
-# Beats 17.72% of Python 3 submissions in runtime.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = [[1, 2, 3],
+                  [4, 5, 6],
+                  [7, 8, 9]]
+    print(Solution.diagonalSum(Solution, test_input))

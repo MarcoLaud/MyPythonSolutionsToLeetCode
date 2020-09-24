@@ -31,5 +31,7 @@ class Solution:
             t += sum(dists[ii])
         return t
 
-# Beats 78.71% and 47.46% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22). Now PEP8 compliant.
+
+if __name__ == '__main__':
+    test_input = [[1, 1], [3, 4], [-1, 0]]
+    print(Solution.minTimeToVisitAllPoints(Solution, test_input))

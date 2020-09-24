@@ -26,5 +26,10 @@ class Solution:
                             res += 1
         return res
 
-# Beats 61.56% of Python 3 submissions in memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = [3, 0, 1, 1, 9, 7]
+    a = 7
+    b = 2
+    c = 3
+    print(Solution.countGoodTriplets(Solution, test_input, a, b, c))

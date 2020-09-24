@@ -19,5 +19,7 @@ class Solution:
                 res += 1
         return res
 
-# Beats 55.90% and 52.39% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = "RLLLLRRRLR"
+    print(Solution.balancedStringSplit(Solution, test_input))

@@ -16,4 +16,6 @@ class Solution:
         return hashMap
 
 
-# beats 82.95% of Python 3 submission (2020/09/22)
+if __name__ == '__main__':
+    test_input = [1, 2, 3, 1, 1, 3]
+    print(Solution.numIdenticalPairs(Solution, test_input))

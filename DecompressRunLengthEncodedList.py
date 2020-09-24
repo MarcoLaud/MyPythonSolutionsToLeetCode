@@ -15,5 +15,7 @@ class Solution:
     def decompressRLElist(self, N):
         return sum([N[i] * [N[i+1]] for i in range(0, len(N), 2)], [])
 
-# Beats 91.57% and 98.10% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = [1, 2, 3, 4]
+    print(Solution.decompressRLElist(Solution, test_input))
