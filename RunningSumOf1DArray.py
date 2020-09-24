@@ -8,5 +8,7 @@ class Solution:
     def runningSum(self, nums):
         return [sum(nums[:ii+1]) for ii in range(len(nums))]
 
-# Beats 31.62% and 59.20% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+
+if __name__ == '__main__':
+    test_input = [3, 1, 2, 10, 1]
+    print(Solution.runningSum(Solution, test_input))

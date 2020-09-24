@@ -11,5 +11,7 @@ class Solution:
         return ''.join(s[indices.index(ii)] for ii in range(len(s)))
 
 
-# Beats 26.53% and 93.81% of Python 3 submissions in runtime and memory resp.
-# (2020/09/22)
+if __name__ == '__main__':
+    test_input1 = "aaiougrt"
+    test_input2 = [4, 0, 2, 6, 7, 3, 1, 5]
+    print(Solution.restoreString(Solution, test_input1, test_input2))
