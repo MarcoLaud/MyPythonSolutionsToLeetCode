@@ -12,7 +12,7 @@
 
 class Solution:
     def flipAndInvertImage(self, A):
-        return [[(elem + 1) % 2 for elem in row][::-1] for row in A]
+        return [[elem ^ 1 for elem in row][::-1] for row in A]
 
 
 if __name__ == "__main__":
