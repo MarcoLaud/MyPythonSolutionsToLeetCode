@@ -16,6 +16,6 @@ class Solution:
 
 
 if __name__ == "__main__":
-    testinput1 = "loveleetcode"
-    testinput2 = 'e'
+    testinput1 = "marcoseibellissimo"
+    testinput2 = 'o'
     print(Solution.shortestToChar(Solution, testinput1, testinput2))
